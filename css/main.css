@@ -1214,7 +1214,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .display-1 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 7.8rem;
+    font-size: 5.8rem;
     line-height: 1.25;
     color: #000000;
     margin-top: 0;
@@ -1262,7 +1262,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
     .display-1 {
-        font-size: 7.2rem;
+        font-size: 5.8rem;
     }
     .display-2 {
         font-size: 4.4rem;
@@ -1474,7 +1474,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: #0C0C0C;
     color: rgba(255, 255, 255, 0.25);
     font-family: "montserrat-light", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
     height: 100%;
