@@ -2491,7 +2491,249 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+/* ===================================================================
+ * # whyus
+ *
+ * ------------------------------------------------------------------- */
+.s-whyus {
+    padding-top: 16.2rem;
+    padding-bottom: 13.2rem;
+    background-color: #FFC300;
+    color: #757575;
+    position: relative;
+}
 
+
+/* ------------------------------------------------------------------- 
+ * ## whyus list
+ * ------------------------------------------------------------------- */
+.whyus-list {
+    margin-top: 6rem;
+}
+
+.whyus-list .service-item {
+    margin-bottom: .9rem;
+}
+
+.whyus-list .service-item h3 {
+    margin-top: 0;
+}
+
+.whyus-list .service-item:nth-child(2n+1) {
+    padding-right: 50px;
+}
+
+.whyus-list .service-item:nth-child(2n+2) {
+    padding-left: 50px;
+}
+
+.whyus-list .service-text {
+    margin-left: 7.8rem;
+}
+
+.whyus-list .service-icon {
+    float: left;
+    color: #FFC300;
+    font-size: 4.8rem;
+    margin-top: -.6rem;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * whyus
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .whyus-list {
+        max-width: 1000px;
+    }
+    .whyus-list .service-item:nth-child(2n+1) {
+        padding-right: 30px;
+    }
+    .whyus-list .service-item:nth-child(2n+2) {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .whyus-list h3 {
+        font-size: 2.5rem;
+    }
+    .whyus-list .service-item:nth-child(2n+1) {
+        padding-right: 20px;
+    }
+    .whyus-list .service-item:nth-child(2n+2) {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .whyus-list {
+        margin-top: 4.2rem;
+        max-width: 500px;
+        text-align: center;
+    }
+    .whyus-list .service-item:nth-child(n) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .whyus-list h3 {
+        font-size: 3rem;
+    }
+    .whyus-list .service-text {
+        margin-left: 0;
+    }
+    .whyus-list .service-icon {
+        font-size: 4.5rem;
+        float: none;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-whyus {
+        padding-top: 12rem;
+    }
+    .whyus-list .service-item:nth-child(n) {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .whyus-list h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .whyus-list .service-item:nth-child(n) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .whyus-list h3 {
+        font-size: 2.5rem;
+    }
+}
+
+/* ===================================================================
+ * # ourteam
+ *
+ * ------------------------------------------------------------------- */
+.s-ourteam {
+    padding-top: 16.2rem;
+    padding-bottom: 13.2rem;
+    background-color: #FFFFFF;
+    color: #757575;
+    position: relative;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * ## ourteam list
+ * ------------------------------------------------------------------- */
+.ourteam-list {
+    margin-top: 6rem;
+}
+
+.ourteam-list .service-item {
+    margin-bottom: .9rem;
+}
+
+.ourteam-list .service-item h3 {
+    margin-top: 0;
+}
+
+.ourteam-list .service-item:nth-child(2n+1) {
+    padding-right: 50px;
+}
+
+.ourteam-list .service-item:nth-child(2n+2) {
+    padding-left: 50px;
+}
+
+.ourteam-list .service-text {
+    margin-left: 2rem;
+}
+
+.ourteam-list .service-icon {
+    float: left;
+    color: #FFC300;
+    font-size: 4.8rem;
+    margin-top: -.6rem;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * ourteam
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .ourteam-list {
+        max-width: 1000px;
+    }
+    .ourteam-list .service-item:nth-child(2n+1) {
+        padding-right: 30px;
+    }
+    .ourteam-list .service-item:nth-child(2n+2) {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .ourteam-list h3 {
+        font-size: 2.5rem;
+    }
+    .ourteam-list .service-item:nth-child(2n+1) {
+        padding-right: 20px;
+    }
+    .ourteam-list .service-item:nth-child(2n+2) {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .ourteam-list {
+        margin-top: 4.2rem;
+        max-width: 500px;
+        text-align: center;
+    }
+    .ourteam-list .service-item:nth-child(n) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .ourteam-list h3 {
+        font-size: 3rem;
+    }
+    .ourteam-list .service-text {
+        margin-left: 0;
+    }
+    .ourteam-list .service-icon {
+        font-size: 4.5rem;
+        float: none;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-ourteam {
+        padding-top: 12rem;
+    }
+    .ourteam-list .service-item:nth-child(n) {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .ourteam-list h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .ourteam-list .service-item:nth-child(n) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .ourteam-list h3 {
+        font-size: 2.5rem;
+    }
+}
 
 /* ===================================================================
  * # works
