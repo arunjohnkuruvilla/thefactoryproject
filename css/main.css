@@ -1872,6 +1872,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__buttons .btn:focus {
     background: #FFFFFF !important;
     color: #000000;
+    border: 0;
+    box-shadow: 0;
 }
 
 .home-content__scroll {
