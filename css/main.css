@@ -1819,6 +1819,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__main {
     padding-top: 24rem;
     position: relative;
+    max-width: 1000px;
 }
 
 .home-content__buttons {
@@ -2381,7 +2382,6 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-
 /* ------------------------------------------------------------------- 
  * ## services list
  * ------------------------------------------------------------------- */
@@ -2395,6 +2395,24 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-item h3 {
     margin-top: 0;
+    text-align: center;
+}
+
+.services-list .service-item h3 .btn {
+    width: 300px;
+    border-color: #000000;
+    color: #000000;
+    margin: 1.5rem 1.5rem 0 0;
+    letter-spacing: .25rem;
+    font-size: 0.7em;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.services-list .service-item h3 .btn:hover, 
+.services-list .service-item h3 .btn:focus {
+    background: #FFFFFF !important;
+    color: #000000;
 }
 
 .services-list .service-item:nth-child(2n+1) {
