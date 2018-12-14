@@ -3244,14 +3244,19 @@ html.no-csstransitions .home-content__main {
 
 .clients__slide {
     display: block;
-    opacity: .55;
+    opacity: 1;
     padding: 1.5rem 2.8rem;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: filter 0.5s ease-in-out;
+    transition: filter 0.5s ease-in-out;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .clients__slide:hover, .clients__slide:focus {
     opacity: 1;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 
 
@@ -4101,7 +4106,7 @@ footer .row {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  background: url(https://subtlepatterns.com/patterns/stardust.png);
+  background-color: #FFC300;
   text-align: center;
   z-index: 11;
   opacity: 1;
@@ -4123,9 +4128,10 @@ footer .row {
   height: 30px;
   line-height: 30px;
   padding: 0px;
-  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-family: "montserrat-medium", sans-serif;
   color: #fff;
   font-size: 20px;
+  color: #000;
   width: 200px;
   position: relative;
   animation: textUp ease 3s;
@@ -4152,34 +4158,33 @@ footer .row {
 .loader {
   width: 120px;
   height: 120px;
-  background-color: #FFFFFF;
   overflow: hidden;
   display: block;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  border: 3px solid #fff;
+  border: 3px solid #000;
   position: relative;
   margin: 15px auto;
   z-index: 1;
-  animation: colorChange ease 3s;
+  /*animation: colorChange ease 3s;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
   -webkit-animation: colorChange ease 3s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;*/
   /*Chrome 16+, Safari 4+*/
-  -moz-animation: colorChange ease 3s;
+  /*-moz-animation: colorChange ease 3s;
   -moz-animation-iteration-count: infinite;
-  -moz-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;*/
   /*FF 5+*/
-  -o-animation: colorChange ease 3s;
+  /*-o-animation: colorChange ease 3s;
   -o-animation-iteration-count: infinite;
-  -o-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;*/
   /*Not implemented yet*/
-  -ms-animation: colorChange ease 3s;
+  /*-ms-animation: colorChange ease 3s;
   -ms-animation-iteration-count: infinite;
-  -ms-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;*/
   /*IE 10+*/
 }
 
@@ -4217,6 +4222,7 @@ footer .row {
   bottom: 5px;
   position: relative;
   right: 3px;
+  max-width: 480px;
 }
 
 @keyframes textUp {
