@@ -4004,7 +4004,7 @@ footer .row {
     width: 60px;
     line-height: 60px;
     text-align: center;
-    background: #ffc300;
+    background: black;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     text-transform: uppercase;
@@ -4015,6 +4015,11 @@ footer .row {
 .go-top a i, .go-top a:visited i {
     font-size: 18px;
     line-height: inherit;
+    color: #ffc330;
+}
+
+.go-top a i:hover {
+    color: #ffffff;
 }
 
 .go-top a:hover, .go-top a:focus {
