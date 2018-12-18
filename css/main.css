@@ -2428,7 +2428,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .services-list .service-item h3 .btn {
-    width: 400px;
+    width: 100%;
     color: #000000;
     border: 0;
     background-color: #FFC300;
@@ -2443,6 +2443,14 @@ html.no-csstransitions .home-content__main {
 .services-list .service-item h3 .btn:hover, 
 .services-list .service-item h3 .btn:focus {
     background: #f3ba00 !important;
+    box-shadow: 0 0 0 0.0rem transparent;
+    color: #000000;
+}
+
+.services-list .service-item h3 .btn-primary:hover,
+.services-list .service-item h3 .btn-primary:focus {
+    background: #f3ba00 !important;
+    box-shadow: 0 0 0 0.0rem transparent;
     color: #000000;
 }
 

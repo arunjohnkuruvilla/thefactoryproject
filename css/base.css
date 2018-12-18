@@ -661,16 +661,46 @@ textarea {
         margin-left: 0;
         margin-right: 0;
     }
-    [class*="col-"] {
+    .col-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .display-3 {
+        font-size: 0.6em !important;
+    }
+    .offset-3 {
+        margin-left: 25%;
+    }
+
+    .offset-4 {
+        margin-left: 0;
+    }
+    .offset-2{
+        margin-left: 0;
+    }
+    .subhead-modal {
+        font-size: 1.5em !important;
+    }
+    [class*="col-xs"] {
         width: 100% !important;
-        float: none !important;
-        clear: both !important;
+        /*float: none !important;
+        clear: both !important;*/
         margin-left: 0;
         margin-right: 0;
         padding: 0;
     }
-    [class*="col-"]+[class*="col-"].end {
+    [class*="col-xs"]+[class*="col-xs"].end {
         float: none;
+    }
+
+    .ourteam-list .service-item {
+        width: 100% !important;
+    }
+
+    .home-content__buttons {
+        width: 100%;
     }
 }
 
