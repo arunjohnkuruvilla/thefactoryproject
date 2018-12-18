@@ -127,6 +127,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         margin-top: 5.1rem;
     }
+
+    #highlightModal h3 {
+        font-size: 1em !important;
+    }
 }
 
 h5, .h5, h6, .h6 {
@@ -2198,6 +2202,7 @@ html.no-csstransitions .home-content__main {
     }
     .home-content__buttons {
         padding-top: 1.2rem;
+        width: 100%;
     }
     .home-content__buttons .btn {
         width: auto;
@@ -3028,7 +3033,10 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-
+.modal-body {
+    background: #ffc300;
+}
+    
 
 .folio {
     position: relative;
@@ -3083,6 +3091,46 @@ html.no-csstransitions .home-content__main {
     -webkit-transform: scale(0.5);
     -ms-transform: scale(0.5);
     transform: scale(0.5);
+    z-index: 1;
+}
+
+#highlightModal a::before {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#highlightModal a {
+    display: inline;
+}
+#highlightModal a:hover {
+    color: #0087cc;
+}
+
+#highlightModal a::after {
+
+    font-family: georgia, serif;
+    font-size: 2.7rem;
+    display: block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: none;
+    transition: none;
     z-index: 1;
 }
 
