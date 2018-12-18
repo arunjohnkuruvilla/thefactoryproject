@@ -654,6 +654,16 @@ textarea {
     .hightlightsP {
         font-size: 1em !important;
     }
+
+    #home {
+        background: url('../images/hero-bg.jpg') no-repeat center center fixed; 
+        background-attachment: scroll; 
+        -webkit-background-size: scroll; 
+        -moz-background-size: scroll; 
+        -o-background-size: scroll; 
+        height: 100%; 
+        overflow: hidden;
+    }
 }
 
 

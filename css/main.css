@@ -1781,9 +1781,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 #home {
-    background-image: url(./images/hero-bg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+    background: url('../images/hero-bg.jpg') no-repeat center center fixed; 
+    background-attachment: fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    height: 100%; 
+    overflow: hidden;
 }
 
 .s-home .shadow-overlay {
