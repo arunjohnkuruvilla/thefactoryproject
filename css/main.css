@@ -1788,6 +1788,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -o-background-size: cover; 
     height: 100%; 
     overflow: hidden;
+    min-height: 100%;
 }
 
 .s-home .shadow-overlay {

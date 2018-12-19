@@ -656,13 +656,11 @@ textarea {
     }
 
     #home {
-        background: url('../images/hero-bg.jpg') no-repeat center center fixed; 
-        background-attachment: scroll; 
-        -webkit-background-size: scroll; 
-        -moz-background-size: scroll; 
-        -o-background-size: scroll; 
+        background: url('../images/hero-bg.jpg') no-repeat 50% 50% fixed; 
+        background-attachment: fixed;  
         height: 100%; 
         overflow: hidden;
+        min-height: 100%;
     }
 }
 
@@ -726,6 +724,14 @@ textarea {
     .hightlightsP {
         font-size: 1em !important;
     }
+
+    #home {
+    background: url('../images/hero-bg.jpg') no-repeat 50% 50% fixed; 
+    background-attachment: fixed;  
+    height: 100%; 
+    overflow: hidden;
+    min-height: 100%;
+}
 }
 
 
